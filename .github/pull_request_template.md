@@ -8,7 +8,7 @@ Please include a summary of the change as well as the issue that is fixed.
 ### Changes
 
 <!--
-Please describe your code changes in detail for reviewers. Explain the techincal solution you have provided and how it addresses the issue at hand.
+Please describe your code changes in detail for reviewers. Explain the technical solution you have provided and how it addresses the issue at hand.
 -->
 
 ### JIRA Ticket
