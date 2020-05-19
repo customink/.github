@@ -11,9 +11,9 @@ Please include a summary of the change as well as the issue that is fixed.
 Please describe your code changes in detail for reviewers. Explain the technical solution you have provided and how it addresses the issue at hand.
 -->
 
-### JIRA Ticket
+### Ticket
 
-<!-- Fill in the Jira ticket with the details of your feature -->
+<!-- Fill in the ticket information with the details of your feature -->
 [XX-1234](https://customink.atlassian.net/browse/XX-1234)
 
 ### Screenshots
