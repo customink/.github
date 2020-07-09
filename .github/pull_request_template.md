@@ -27,3 +27,15 @@ Please include any screenshots that communicate the visual story of the change t
 <!--
 Please include any notes that might be helpful for a reviewer to keep in mind while reading the changes.
 -->
+
+### Optional Tasks
+
+<!--
+Common, optional tasks are included here in case you forgot something important.
+-->
+
+- [ ] Include 🎩  Instructions
+- [ ] Update the readme (README.md)
+- [ ] Update the API or architecture docs (e.g. docs/api.md)
+- [ ] Increment the changelog (CHANGELOG.md)
+- [ ] Increment the version number (lib/version.rb)
