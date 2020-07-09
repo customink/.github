@@ -25,5 +25,5 @@ Please include any screenshots that communicate the visual story of the change t
 ### Notes
 
 <!--
-Any notes that might be helpful for a reviewer to keep in mind while reading the changes.
+Please include any notes that might be helpful for a reviewer to keep in mind while reading the changes.
 -->
