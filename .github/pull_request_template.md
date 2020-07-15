@@ -25,5 +25,22 @@ Please include any screenshots that communicate the visual story of the change t
 ### Notes
 
 <!--
-Any notes that might be helpful for a reviewer to keep in mind while reading the changes.
+Please include any notes that might be helpful for a reviewer to keep in mind while reading the changes.
 -->
+
+### Optional Tasks
+
+<!--
+Common, optional tasks are included here in case you forgot something important.
+-->
+
+- [ ] Include 🎩 Instructions
+- [ ] Update the readme (README.md)
+- [ ] Update the API or architecture docs (e.g. docs/api.md)
+
+##### Library-Specific
+- [ ] Increment the changelog (CHANGELOG.md)
+- [ ] Increment the version number (lib/version.rb)
+- [ ] [Release & Tag][release] the version above in Github
+
+[release]: https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository
