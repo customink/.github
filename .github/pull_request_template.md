@@ -28,6 +28,15 @@ Please include any screenshots that communicate the visual story of the change t
 Please include any notes that might be helpful for a reviewer to keep in mind while reading the changes.
 -->
 
+### Updated Dependencies
+
+<!--
+Please include any notes that might be helpful for a reviewer to check the dependency changes you might have introduced.
+  - gem version update
+  - new gem introduced
+  - data model update
+-->
+
 ### Optional Tasks
 
 <!--
