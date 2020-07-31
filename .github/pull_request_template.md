@@ -11,6 +11,15 @@ Please include a summary of the change as well as the issue that is fixed.
 Please describe your code changes in detail for reviewers. Explain the technical solution you have provided and how it addresses the issue at hand.
 -->
 
+##### Updated Dependencies
+ - None
+<!--
+Please include any notes that might be helpful for a reviewer to check the dependency changes you might have introduced.
+  - gem version update
+  - new gem introduced
+  - data model update
+-->
+
 ### Ticket
 
 <!-- Fill in the ticket information with the details of your feature -->
@@ -26,15 +35,6 @@ Please include any screenshots that communicate the visual story of the change t
 
 <!--
 Please include any notes that might be helpful for a reviewer to keep in mind while reading the changes.
--->
-
-### Updated Dependencies
-
-<!--
-Please include any notes that might be helpful for a reviewer to check the dependency changes you might have introduced.
-  - gem version update
-  - new gem introduced
-  - data model update
 -->
 
 ### Optional Tasks
