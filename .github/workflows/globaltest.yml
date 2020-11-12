@@ -1,0 +1,16 @@
+name: Global Test
+on:
+  workflow_dispatch:
+    inputs:
+      env:
+        description: AWS Stage (staging/prod)
+        default: staging
+        required: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Test
+        run: echo Global Test Hello
