@@ -48,8 +48,13 @@ Common, optional tasks are included here in case you forgot something important.
 - [ ] Update the API or architecture docs (e.g. docs/api.md)
 
 ##### Library-Specific
+
 - [ ] Increment the changelog (CHANGELOG.md)
 - [ ] Increment the version number (lib/version.rb)
 - [ ] [Release & Tag][release] the version above in Github
 
 [release]: https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository
+
+### What GIF Best Describes This Pull Request?
+
+https://giphy.com
