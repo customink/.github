@@ -57,4 +57,6 @@ Common, optional tasks are included here in case you forgot something important.
 
 ### What GIF Best Describes This Pull Request?
 
-https://giphy.com
+<!--
+![](https://i.giphy.com/media/WNuF3KK9NaQ8w/source.gif)
+-->
