@@ -55,6 +55,10 @@ Common, optional tasks are included here in case you forgot something important.
 
 [release]: https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository
 
+##### Performance
+- Are there any new queries in your change set that might require new indexes?
+- Do any new queries require time-boxing to avoid table-scans when the data grows?
+
 ### What GIF Best Describes This Pull Request?
 
 <!--
