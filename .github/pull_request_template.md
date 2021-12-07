@@ -33,6 +33,8 @@ Please include any screenshots that communicate the visual story of the change t
 
 ### Notes
 
+_Recommended reading: [Code Review guide](https://github.com/customink/guides/blob/master/operations/code-review/README.md)_
+
 <!--
 Please include any notes that might be helpful for a reviewer to keep in mind while reading the changes.
 -->
