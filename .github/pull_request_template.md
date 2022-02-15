@@ -57,6 +57,18 @@ Common, optional tasks are included here in case you forgot something important.
 
 [release]: https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository
 
+<!--
+##### Environment Variables
+
+Set custom environment variables for your frontend staging deploy.
+Setup your repo to use this feature by following the instructions located here: https://github.com/customink/frontend-gh-actions
+
+Environment Variables
+```
+TEST_VAR=TEST_VAL
+```
+-->
+
 ##### Performance
 - Are there any new queries in your change set that might require new indexes?
 - Do any new queries require time-boxing to avoid table-scans when the data grows?
