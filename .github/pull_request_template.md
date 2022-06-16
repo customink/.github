@@ -48,6 +48,7 @@ Common, optional tasks are included here in case you forgot something important.
 - [ ] Include 🎩 Instructions
 - [ ] Update the readme (README.md)
 - [ ] Update the API or architecture docs (e.g. docs/api.md)
+- [ ] Update the Swagger
 
 ##### Library-Specific
 
