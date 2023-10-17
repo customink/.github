@@ -1,8 +1,25 @@
-### Description
+### Stakeholder Overview
 
 <!--
-Describe the relevant motivation and context for this change.
-Please include a summary of the change as well as the issue that is fixed.
+This section should provide a brief overview of the changes and the motivation for the changes in a 
+manner friendly to non-technical people and to technical people who don't know the context or are not
+subject matter experts on the system or update being made. Consider the logical need for the change, 
+as well as the logical effect of the change, particularly as any end-users would experience it.
+
+Good example:
+IHP is in the process of updating the way carts get built. This is the core cart creation 
+logic that sorts and groups orders into carts. With the upcoming change for the UI, users will 
+be able to skip the Press Staging Queue and create a cart based on the flash count for the 
+printer they are selecting for.
+
+Good example:
+We are currently sending all pageViewTags as custom events to fullstory which results in Fullstory 
+throttling Custom Events for our accounts. This prevents us from using custom events for more legitimate 
+users (e.g. custom event to track when a user is in test group)
+This change is going to help Swag Management to identify sessions of users in Swag Management test group.
+
+Bad example:
+change ingress
 -->
 
 ### Changes
