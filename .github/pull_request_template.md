@@ -19,8 +19,7 @@ Bad example:
 change ingress
 -->
 
-### Risk Assessment
-
+### Risk Assessment _[(learn more)](https://app.getguru.com/card/iMnRRRjT/PR-Risk-Assessment)_
 <!-- Describe the risk of this change and how it will be tested, deployed, and verified. -->
 
 - [ ] Large/complex change?
