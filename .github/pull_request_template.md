@@ -1,10 +1,7 @@
 ### Stakeholder Overview
 
 <!--
-This section should provide a brief overview of the changes and the motivation for the changes in a 
-manner friendly to non-technical people and to technical people who don't know the context or are not
-subject matter experts on the system or update being made. Consider the logical need for the change, 
-as well as the logical effect of the change, particularly as any end-users would experience it.
+Provide a concise summary of the motivation and the driving force behind them. These explanations are designed to be understandable to individuals without technical knowledge, and to people who may not be familiar with the context or specialize in the particular system or update being discussed. Think about the logical rationale for the modification and its practical impact, especially from the viewpoint of any end-users.
 
 Good example:
 IHP is in the process of updating the way carts get built. This is the core cart creation 
