@@ -20,11 +20,12 @@ change ingress
 -->
 
 ### Risk Assessment _[(learn more)](https://app.getguru.com/card/iMnRRRjT/PR-Risk-Assessment)_
+<!-- WIP: Some teams are experimenting with this section. Fee free to remove. -->
 <!-- Describe the risk of this change and how it will be tested, deployed, and verified. -->
 
 - [ ] Large/complex change?
 - [ ] Big splash zone?
-- [ ] Low margin for error?
+- [ ] High stakes if errors occur?
 - [ ] Low confidence?
 - [ ] No/flipping feature flag?
 
