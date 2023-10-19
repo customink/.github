@@ -19,6 +19,16 @@ Bad example:
 change ingress
 -->
 
+### Risk Assessment
+
+<!-- Describe the risk of this change and how it will be tested, deployed, and verified. -->
+
+- [ ] Large/complex change?
+- [ ] Big splash zone?
+- [ ] Low margin for error?
+- [ ] Low confidence?
+- [ ] No/flipping feature flag?
+
 ### Changes
 
 <!--
@@ -37,13 +47,11 @@ Please include any notes that might be helpful for a reviewer to check the depen
 ### Ticket
 
 <!-- Fill in the ticket information with the details of your feature -->
-[XX-1234](https://customink.atlassian.net/browse/XX-1234)
+[Monday issue](https://customink.monday.com/boards/12345/pulses/12345)
 
 ### Screenshots
 
-<!--
-Please include any screenshots that communicate the visual story of the change that is being made.
--->
+<!-- Communicate the visual story of the change that is being made. -->
 
 ### Notes
 
