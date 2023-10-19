@@ -15,7 +15,7 @@ printer they are selecting for.
 Good example:
 We are currently sending all pageViewTags as custom events to fullstory which results in Fullstory 
 throttling Custom Events for our accounts. This prevents us from using custom events for more legitimate 
-users (e.g. custom event to track when a user is in test group)
+users (e.g. custom event to track when a user is in test group).
 This change is going to help Swag Management to identify sessions of users in Swag Management test group.
 
 Bad example:
