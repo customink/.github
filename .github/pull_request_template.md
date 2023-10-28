@@ -19,15 +19,16 @@ Bad example:
 change ingress
 -->
 
-### Risk Assessment _[(learn more)](https://app.getguru.com/card/iMnRRRjT/PR-Risk-Assessment)_
+### Risk Estimate _[(learn more)](https://app.getguru.com/card/iMnRRRjT/Pull-Request-Risk-Estimate)_
 <!-- WIP: Some teams are experimenting with this section. Fee free to remove. -->
-<!-- Describe the risk of this change and how it will be tested, deployed, and verified. -->
+_[Replace this with a description of the risk, if any, and how the change will be deployed.]_
 
-- [ ] Large/complex change?
+- [ ] Big/complex change?
 - [ ] Big splash zone?
 - [ ] High stakes if errors occur?
 - [ ] Low confidence?
-- [ ] No/flipping feature flag?
+- [ ] Hidden by feature flag?
+- [ ] Negligible risk!
 
 ### Changes
 
