@@ -27,7 +27,7 @@ _[Replace this with a description of the risk, if any, and how the change will b
 - [ ] Big splash zone?
 - [ ] High stakes if errors occur?
 - [ ] Low confidence?
-- [ ] Hidden by feature flag?
+- [ ] Not hidden by feature flag?
 - [ ] Negligible risk!
 
 ### Changes
