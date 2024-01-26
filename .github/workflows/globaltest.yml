@@ -3,9 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       env:
-        description: AWS Stage (staging/prod)
-        default: staging
-        required: true
+        description: Repositories to replicate dependabot config to
+        required: false
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,3 +13,19 @@ jobs:
         uses: actions/checkout@v1
       - name: Test
         run: echo Global Test Hello
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch: {}
+
+jobs:
+  replicate_changes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: derberg/manage-files-in-multiple-repositories@v2
+        with:
+          github_token: ${{ secrets.CUSTOM_TOKEN }}
+          #you must specify what pattern to include otherwise all files from the repository will be replicated 
+          patterns_to_include: '.github/dependabot.yml'

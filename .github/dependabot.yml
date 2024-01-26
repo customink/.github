@@ -1,0 +1,30 @@
+# This is the configuration for Dependabot in order to automatically update our dependencies.
+---
+version: 2
+registries:
+  npm-registry-npm-pkg-github-com:
+    type: npm-registry
+    url: https://npm.pkg.github.com
+    token: "${{secrets.NPM_REGISTRY_NPM_PKG_GITHUB_COM_TOKEN}}"
+
+updates:
+  # just NPM for now
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: daily
+      time: "03:00"
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+    versioning-strategy: increase-if-necessary
+    commit-message:
+      prefix: "[Dependabot]"
+      # no release for dev-deps
+      prefix-development: chore(dev-deps)
+    registries:
+      - github
+    ignore:
+      - dependency-name: '@salesforce/dev-scripts'
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
