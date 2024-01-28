@@ -2,7 +2,7 @@ name: Global Test
 on:
   workflow_dispatch:
     inputs:
-      env:
+      repo_name:
         description: Repositories to replicate dependabot config to
         required: false
 
