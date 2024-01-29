@@ -1,0 +1,25 @@
+name: Add config for bumping/closing inactive PRs
+on:
+  push:
+    branches:
+      - 'master'
+    paths:
+      - '.github/workflows/stale.yml'
+      - '.github/workflows/distribute-stale.yml'
+
+jobs:
+  replicate_changes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: derberg/manage-files-in-multiple-repositories@v2
+        with:
+          # TODO: using my personal token here. need a bot token
+          # needed scopes: repo, workflow
+          github_token: ${{ secrets.GLOBAL_GH_ACTION_TOKEN }}
+          # you must specify what pattern to include otherwise all files from the repository will be replicated 
+          patterns_to_include: '.github/dependabot.yml'
+          commit_message: 'Update dependabot.yml config'
+          committer_username: 'Atlas Team'
+          committer_email: 'atlas@customink.com'
+          exclude_forked: true
