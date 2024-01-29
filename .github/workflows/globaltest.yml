@@ -18,3 +18,7 @@ jobs:
           github_token: ${{ secrets.GLOBAL_GH_ACTION_TOKEN }}
           #you must specify what pattern to include otherwise all files from the repository will be replicated 
           patterns_to_include: '.github/dependabot.yml'
+          commit_message: 'Update dependabot.yml config'
+          committer_username: 'DX Team'
+          committer_email: 'dx@customink.com'
+          exclude_forked: true
