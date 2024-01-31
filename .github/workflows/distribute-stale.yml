@@ -8,7 +8,7 @@ on:
       - '.github/workflows/distribute-stale.yml'
 
 jobs:
-  replicate_changes:
+  distribute_stale:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -17,7 +17,7 @@ jobs:
           # needed scopes: repo, workflow
           github_token: ${{ secrets.GLOBAL_GH_ACTION_TOKEN }}
           # you must specify what pattern to include otherwise all files from the repository will be replicated 
-          patterns_to_include: '.github/stale.yml'
+          patterns_to_include: '.github/workflows/stale.yml'
           commit_message: 'Update stale.yml config'
           committer_username: 'Atlas Team'
           committer_email: 'atlas@customink.com'
