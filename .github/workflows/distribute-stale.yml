@@ -6,6 +6,11 @@ on:
     paths:
       - '.github/workflows/stale.yml'
       - '.github/workflows/distribute-stale.yml'
+  workflow_dispatch:
+    inputs:
+      repo_name:
+        description: 'The name of the repository to distribute the stale.yml config to'
+        required: false
 
 jobs:
   distribute_stale:
