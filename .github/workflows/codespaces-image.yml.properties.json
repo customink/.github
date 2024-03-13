@@ -1,0 +1,7 @@
+{
+  "name": "Codespaces Image Build",
+  "description": "Workflow to build Codespace Docker Images",
+  "iconName": "example-icon",
+  "categories": ["Docker", "Codespaces"],
+  "filePatterns": [".devcontainer/Dockerfile"]
+}
