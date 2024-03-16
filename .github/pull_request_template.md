@@ -5,7 +5,6 @@ Provide a concise summary of the motivation and the driving force behind this ch
 -->
 
 ### Risk Estimate _[(learn more)](https://app.getguru.com/card/iMnRRRjT/Pull-Request-Risk-Estimate)_
-<!-- WIP: Some teams are experimenting with this section. Fee free to remove. -->
 _[Replace this with a description of the risk, if any, and how the change will be deployed.]_
 
 <!-- remove any that do not apply -->
