@@ -69,6 +69,11 @@ Common, optional tasks are included here in case you forgot something important.
 - Are there any new queries in your change set that might require new indexes?
 - Do any new queries require time-boxing to avoid table-scans when the data grows?
 
+
+##### Data & Analytics Dependencies
+- For customer-facing applications, are there any GA tagging changes that are needed or created by this change? If so, have those been discussed with D&A?
+- Has Data Engineering been notified of any schema changes?
+
 ### What GIF Best Describes This Pull Request?
 
 <!--
