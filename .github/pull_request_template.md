@@ -8,11 +8,11 @@ Provide a concise summary of the motivation and the driving force behind this ch
 _[Replace this with a description of the risk, if any, and how the change will be deployed.]_
 
 <!-- remove any that do not apply -->
-- ✅ Big/complex change
-- ✅ Big splash zone
-- ✅ High stakes if errors occur
-- ✅ Low confidence
-- ✅ Not hidden by feature flag
+- ⚠️ Big/complex change
+- ⚠️ Big splash zone
+- ⚠️ High stakes if errors occur
+- ⚠️ Low confidence
+- ⚠️ Not hidden by feature flag
 - ✅ Negligible risk!
 
 ### Changes
