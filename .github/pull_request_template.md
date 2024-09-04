@@ -5,7 +5,8 @@ Provide a concise summary of the motivation and the driving force behind this ch
 -->
 
 ### Risk Estimate _[(learn more)](https://app.getguru.com/card/iMnRRRjT/Pull-Request-Risk-Estimate)_
-_[Replace this with a description of the risk, if any, and how the change will be deployed.]_
+
+<!-- Optionally add a description of the risk, and how the change will be deployed. -->
 
 <!-- remove any that do not apply -->
 - ⚠️ Big/complex change
@@ -30,10 +31,11 @@ Please include any notes that might be helpful for a reviewer to check the depen
   - data model update
 -->
 
-### Ticket
+### Project Link
 
 <!-- Fill in the ticket information with the details of your feature -->
-[Monday issue](https://customink.monday.com/boards/12345/pulses/12345)
+<!-- [Monday issue](https://customink.monday.com/boards/12345/pulses/12345) -->
+<!-- [Project pitch](https://docs.google.com/document/d/1X7qdItdxoxC6p0MertCjfyzlKw_T2M79yQknTlPQOF4) -->
 
 ### Screenshots
 
