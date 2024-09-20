@@ -6,8 +6,9 @@ purpose: # multiple choice
   # - app
   # - demo
   # - library
-  - configuration
+  # - configuration
   # - other
+  - do_not_track
 deployment_type: # multiple choice
   # - kubernetes
   # - infrastructure_serverless
