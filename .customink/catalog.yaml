@@ -2,13 +2,8 @@ name: .github
 
 owner: atlas # team definitions at https://app.opslevel.com/teams
 
-purpose: # multiple choice
-  # - app
-  # - demo
-  # - library
-  # - configuration
-  # - other
-  - do_not_track
+purpose:
+  - configuration
 deployment_type: # multiple choice
   # - kubernetes
   # - infrastructure_serverless
